@@ -1,3 +1,7 @@
 export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+  return (
+    <header className="site-header">
+      <h1 className="title">{title}</h1>
+    </header>
+  )
 }

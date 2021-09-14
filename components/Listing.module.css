@@ -1,0 +1,38 @@
+@value colors: '../styles/variables.css';
+@value blue from colors;
+
+.listing{
+  margin: .5rem 0;
+  padding: .375rem 1rem;
+  min-width: 388px;
+}
+
+.listing:first-child{
+  margin: 0 0 .5rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.listingHeading{
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.button{
+  background: #fff;
+  border: none;
+  text-decoration: underline;
+  padding: 0;
+  color: #777;
+  color: blue ;
+}
+
+.button:hover{
+  text-decoration: none;
+  
+}
